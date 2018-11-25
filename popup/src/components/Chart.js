@@ -104,7 +104,7 @@ class CandleStickChartWithBollingerBandOverlay extends React.Component {
 					<MouseCoordinateY
 						at="right"
 						orient="right"
-						displayFormat={format(".2f")} />
+						displayFormat={format(".5f")} />
 
 					<CandlestickSeries />
 					<BollingerSeries yAccessor={d => d.bb}
