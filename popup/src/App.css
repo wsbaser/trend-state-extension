@@ -4,10 +4,14 @@
   position: relative;
 }
 .loader{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
   text-align: center;
 }
 
 .App {
+  height: 100%;
   /* text-align: center; */
 }
 

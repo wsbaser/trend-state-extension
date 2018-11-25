@@ -77,7 +77,7 @@ class CandleStickChartWithBollingerBandOverlay extends React.Component {
 			<ChartCanvas height={400}
 				width={width}
 				ratio={ratio}
-				margin={{ left: 70, right: 70, top: 10, bottom: 30 }}
+				margin={{ left: 60, right: 60, top: 10, bottom: 30 }}
 				type={type}
 				seriesName="MSFT"
 				data={data}
