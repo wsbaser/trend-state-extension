@@ -14,7 +14,7 @@
     "page": "background.html",
     "persistent": false
   },
-  "permissions": ["tabs", "<all_urls>", "http://localhost:5000/*"],
+  "permissions": ["activeTab", "http://92.53.120.34:5000/*"],
   "web_accessible_resources": [
     "assets/images/icon16.png"
   ],
