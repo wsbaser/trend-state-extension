@@ -2,7 +2,7 @@
   "author": "wsbaser",
   "manifest_version": 2,
   "name": "Trend State",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Helps to define quality of the trend for forex pairs.",
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
    "icons": {
@@ -11,10 +11,9 @@
       "128": "icons/icon128.png"
    },
   "background": {
-    "page": "background.html",
-    "persistent": false
+      "scripts": [ "assets/background.js" ]
   },
-  "permissions": ["activeTab", "http://92.53.120.34:5000/*"],
+  "permissions": ["background", "storage", "tabs", "notifications", "activeTab", "http://92.53.120.34:5000/*"],
   "web_accessible_resources": [
     "assets/images/icon16.png"
   ],
